@@ -1,42 +1,48 @@
-:root {
-  color-scheme: light dark; /* both supported */
+body {
+    background-color: white;
+    color: black;
+    font-size: 120%;
+    margin-left: 75px;
+    margin-right: 75px;
 }
 
-body, p {
-    background-color: light-dark(#23252f, white); /* Le fond de la page sera noir */
-    color: light-dark(#f8f8f2, black); /* Le texte de la page sera blanc */
+p {
+    background-color: white;
+    color: black;
     font-size: 120%;
     margin-left: 75px;
     margin-right: 75px;
 }
 
 h1, h2 {
-  color: light-dark(#ffffff, black);
+  background-color: white;
+  color: black;
   margin-left: 75px;
   margin-right: 75px;
   margin-bottom:10px;
 }
 
 h3 {
-  color: light-dark(#f8f8f2, white);
+  background-color: white;
+  color: black;
   margin-left: 75px;
   margin-right: 75px;
   margin-bottom:10px;
 }
 
 a {
-  color: #bbdefb;
+  color: #1665C0;
   text-decoration: none;
 }
 
 button {
-  color: #bbdefb;
-  background-color: #272935;
+  color: #1665C0;
+  background-color: #F7F7F7;
   text-decoration: none;
 }
 
 nav {
-    background-color: #272935;
+    background-color: #F7F7F7;
     overflow: hidden;
     margin-left: 75px;
     width: 86.7%;
@@ -52,8 +58,8 @@ nav a {
 }
 
 nav a:hover {
-  background-color: #23252f;
-  color: white;
+  background-color: #9C9DA2;
+  color: black;
 }
 
 nav button {
@@ -66,14 +72,16 @@ ul, ol {
   margin-right: 65px;
 }
 
-.dark-mode {
-  background-color: white;
-  color: black;
-}
-.dark-mode1 a { color: #1665C0;}
-.dark-mode1 button { color: #1665C0; background-color: #F7F7F7;}
-.dark-mode1 a:hover {background-color: #9C9DA2; color: black;}
-.dark-mode1 nav { background-color: #F7F7F7;}
+.dark-mode {color: #f8f8f2; background-color: #23252f;}
+.dark-mode body {color: #f8f8f2; background-color: #23252f;}
+.dark-mode p {color: #f8f8f2; background-color: #23252f;}
+.dark-mode h1 {color: #ffffff; background-color: #23252f;}
+.dark-mode h2 {color: #ffffff; background-color: #23252f;}
+.dark-mode h3 {color: #f8f8f2; background-color: #23252f;}
+.dark-mode a {color: #bbdefb;}
+.dark-mode button {color: #bbdefb; background-color: #272935;}
+.dark-mode a:hover {color: white; background-color: #23252f;}
+.dark-mode nav {background-color: #272935;}
 
 
 
