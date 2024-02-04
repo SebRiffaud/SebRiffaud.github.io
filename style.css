@@ -1,0 +1,80 @@
+:root {
+  color-scheme: light dark; /* both supported */
+}
+
+body, p {
+    background-color: light-dark(#23252f, white); /* Le fond de la page sera noir */
+    color: light-dark(#f8f8f2, black); /* Le texte de la page sera blanc */
+    font-size: 120%;
+    margin-left: 75px;
+    margin-right: 75px;
+}
+
+h1, h2 {
+  color: light-dark(#ffffff, black);
+  margin-left: 75px;
+  margin-right: 75px;
+  margin-bottom:10px;
+}
+
+h3 {
+  color: light-dark(#f8f8f2, white);
+  margin-left: 75px;
+  margin-right: 75px;
+  margin-bottom:10px;
+}
+
+a {
+  color: #bbdefb;
+  text-decoration: none;
+}
+
+button {
+  color: #bbdefb;
+  background-color: #272935;
+  text-decoration: none;
+}
+
+nav {
+    background-color: #272935;
+    overflow: hidden;
+    margin-left: 75px;
+    width: 86.7%;
+    position: sticky;
+    top: 0;
+}
+
+nav a {
+  float: left;
+  text-align: center;
+  padding: 17px 20px;
+  font-size: 19px;
+}
+
+nav a:hover {
+  background-color: #23252f;
+  color: white;
+}
+
+nav button {
+  float: right;
+  text-align: center;
+}
+
+ul, ol {
+  margin-left: 65px;
+  margin-right: 65px;
+}
+
+.dark-mode {
+  background-color: white;
+  color: black;
+}
+.dark-mode1 a { color: #1665C0;}
+.dark-mode1 button { color: #1665C0; background-color: #F7F7F7;}
+.dark-mode1 a:hover {background-color: #9C9DA2; color: black;}
+.dark-mode1 nav { background-color: #F7F7F7;}
+
+
+
+
